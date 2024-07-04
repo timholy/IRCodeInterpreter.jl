@@ -1,14 +1,14 @@
-using JuliaIRCodeInterpreter
+using IRCodeInterpreter
 using Documenter
 
-DocMeta.setdocmeta!(JuliaIRCodeInterpreter, :DocTestSetup, :(using JuliaIRCodeInterpreter); recursive=true)
+DocMeta.setdocmeta!(IRCodeInterpreter, :DocTestSetup, :(using IRCodeInterpreter); recursive=true)
 
 makedocs(;
-    modules=[JuliaIRCodeInterpreter],
+    modules=[IRCodeInterpreter],
     authors="Tim Holy <tim.holy@gmail.com> and contributors",
-    sitename="JuliaIRCodeInterpreter.jl",
+    sitename="IRCodeInterpreter.jl",
     format=Documenter.HTML(;
-        canonical="https://JuliaDebug.github.io/JuliaIRCodeInterpreter.jl",
+        canonical="https://JuliaDebug.github.io/IRCodeInterpreter.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/JuliaDebug/JuliaIRCodeInterpreter.jl",
+    repo="github.com/JuliaDebug/IRCodeInterpreter.jl",
     devbranch="main",
 )

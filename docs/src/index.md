@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = JuliaIRCodeInterpreter
+CurrentModule = IRCodeInterpreter
 ```
 
-# JuliaIRCodeInterpreter
+# IRCodeInterpreter
 
-Documentation for [JuliaIRCodeInterpreter](https://github.com/JuliaDebug/JuliaIRCodeInterpreter.jl).
+Documentation for [IRCodeInterpreter](https://github.com/JuliaDebug/IRCodeInterpreter.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [JuliaIRCodeInterpreter]
+Modules = [IRCodeInterpreter]
 ```
